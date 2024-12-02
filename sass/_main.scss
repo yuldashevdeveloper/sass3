@@ -12,12 +12,13 @@
 
     .main_boxs{
        display: grid;
-       grid-template-columns: 3fr;
+       grid-template-columns: 1fr 1fr 1fr;
        gap: 31px;
+       padding-bottom: 140px;
         .main_box{
             // width: 363px;
-            border-left: 1px solid #282B22;
-            border-right: 1px solid #282B22;
+            border-left: 1px solid rgb(79, 80,77);
+            border-right: 1px solid rgb(79, 80, 77);
             padding: 0px 29px ;
             .p1{
                 color: gainsboro;
@@ -60,6 +61,7 @@
         .main_title{
             font-size: 28px;
             font-weight: 700;
+            text-align: center;
         }
     
         .main_boxs{
